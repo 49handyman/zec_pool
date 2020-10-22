@@ -1,0 +1,137 @@
+.pay {
+    margin-top: 0.2rem;
+
+    @color-gray:#84868A;
+
+
+    .top-show {
+        height: 1.7rem;
+        box-sizing: border-box;
+        padding-top: 0.17rem;
+        background: #fff;
+        margin-bottom: 0.1rem;
+       
+        .img-wrap {
+            height: 0.91rem;
+            display: flex;
+            justify-content: center;
+            img {
+                width: auto;
+                height: 100%;
+            }
+        }
+
+        .title {
+            display: block;
+            font-size: 0.19rem;
+            margin-top: 0.15rem;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .title-type {
+        font-weight: 700;
+        font-size: 0.14rem;
+        padding-left: 0.16rem;
+        padding-top: .25rem;
+        padding-bottom: 0.16rem;
+    }
+
+    .list-item {
+        height: .44rem;
+        background: #fff;
+        margin-top: 0.01rem;
+        .list-item-content {
+            width: 3.42rem;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.14rem;
+            border-bottom: 0.01rem solid #E6E6E6;
+            &.born {
+                border: none;
+            }
+            .con-r {
+                .num-box {
+                    display: flex;
+                    height: .2rem;
+                    align-items: center;
+                    .btn {
+                       height: .2rem;
+                       width: 0.2rem;
+                       box-sizing: border-box;
+                       display: block;
+                       text-align: center;
+                       line-height: 0.2rem;
+                       border: .01rem solid #979797;
+                    }
+                    span.text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                        width: 0.58rem;
+                        height: 100%;
+                        box-sizing: border-box;
+                        border-top: 0.01rem solid #979797;
+                        border-bottom: 0.01rem solid #979797;
+                    }
+                }
+                .gray {
+                    color: @color-gray;
+                }
+            }
+        }
+       
+    }
+
+    .info-message {
+        background: #fff;
+        box-sizing: border-box;
+        padding-top: 0.1rem;
+        .info-message-content {
+            width: 3.42rem;
+            margin: 0 auto;
+            padding-bottom: 0.15rem;
+            border-bottom: 0.01rem solid #E6E6E6;
+            &.born {
+                border: none;
+            }
+            .label {
+                font-size: 0.14rem;
+                font-weight: 700;
+                margin-bottom: 0.12rem;
+            }
+
+
+            input {
+                font-size: 0.16rem;
+            }
+        }
+    }
+
+    .bot-tips {
+        color: #B2B2B4;
+        margin-top: 0.12rem;
+        margin-bottom: 0.4rem;  
+        text-align: center;
+    }
+
+    button.purchase {
+        width: 3.16rem;
+        height: 0.44rem;
+        margin:  0 auto;
+        border-radius: .06rem;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 0.16rem;
+        justify-content: center;
+        background: #EF4B3A;
+    }
+
+
+}
